@@ -2,15 +2,15 @@
 using namespace std;
 
 int main() {
-    cout << "dodawanie" << endl;
+    cout << "odejmowanie" << endl;
     int licz1, licz2;
     cout << "podaj 1 liczbę: ";
     cin >> licz1;
     cout << "podaj 2 liczbę: ";
     cin >> licz2;
-    int dodawanie;
-    dodawanie = licz1 + licz2;
-    cout << "Wynik dodawania wynosi: " << dodawanie;
+    int odejmowanie;
+    odejmowanie = licz1 - licz2;
+    cout << "Wynik odejmowania wynosi: " << odejmowanie;
 
     return 0;
 }
